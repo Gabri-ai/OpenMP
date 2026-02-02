@@ -1,0 +1,17 @@
+{
+    "configurations": [
+      {
+        "name": "macOS-GCC-OpenMP",
+        "compilerPath": "/opt/local/bin/g++-mp-13",
+        "cStandard": "c17",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "gcc-x64",
+        "includePath": [
+          "/opt/local/include",
+          "${workspaceFolder}/**"
+        ]
+      }
+    ],
+    "version": 4
+  }
+  

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug OpenMP (GCC)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}",
+      "MIMode": "lldb",
+      "preLaunchTask": "build-openmp-gcc",
+      "console": "integratedTerminal",
+      "externalConsole": false
+    }
+  ]
+}
